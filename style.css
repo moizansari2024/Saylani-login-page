@@ -1,33 +1,123 @@
 * {
     margin: 0;
     padding: 0;
-   
+
 }
 
-.container{
+
+/* .container {} */
+
+.parent {
+
+
+}
+
+.login-form {
+    background-color: #002062;
+    width: 45%;
+    /* height: 1024px; */
+    padding: 20px;
+}
+
+.logo img {
+    /* width: 419px; */
+    /* height: 114px; */
+    margin: 40px 0px 23px 20px;
+}
+
+
+.login-form span {
+    color: #fff;
+    font-size: 43px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px 0px 0px 35px;
+    line-height: 20px;
+
+}
+
+
+.type-input{
+    margin: 40px 0px 10px 50px ;
+}
+
+.mail{
+    height: 48px;
+    width: 350px;
+    background-color: #0F2D6B;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 17.2px;
+    color: #9B9B9B;
+}
+
+.type-input-password{
+    margin: 10px 0px 10px 50px ;
+}
+
+.class-two{
+    height: 48px;
+    width: 350px;
+    background-color: #0F2D6B;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 17.2px;
+    color: #9B9B9B;  
+}
+
+.login-form a{
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 17.2px;
+    color: #FFFFFF;
+    margin: 0px 0px 0px 280px ;
+    text-decoration: none;
+}
+
+.sign-in{
+    margin: 50px 0px 10px 50px ; 
+
+}
+
+.type-input-sign-in{
+    height: 45.2px;
+    width: 350px;
+    border-radius: 10px;
+    border: none;
+    background-color: #1A4FBA;
+    color: #FFFFFF;
+    text-align: center;
+    color: #fff;
   
 }
 
-.login-form{
-    width: 1440;
-    height: 1024;
-    background-color: #002062;
+.line-container {
+    text-align: center;
+    position: relative;
+    margin: 20px 0;
 }
 
-.logo {
-    height:114px ;
-    width: 419px;
-    padding: 88px 0px 0px 89px;
-
+.line-container::before,
+.line-container::after {
+    content: "";
+    display: block;
+    border-top: 1px solid #9B9B9B;
+    width: 90%;
+    position: absolute;
+    top: 50%;
 }
 
-.login-form span{
-    width: 402px;
-    height: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 40px;
-    line-height: 20px;
-    color: #fff;
-    padding: 0px 0px 0px 100px ;
+.hr-lines{
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+
+
+
 
