@@ -1,88 +1,95 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
 
-}
+} */
 
 
 /* .container {} */
 
-.parent {
-
-
+body{
+    margin-top: 20px;
 }
+
+.parent {}
 
 .login-form {
     background-color: #002062;
     width: 45%;
     /* height: 1024px; */
     padding: 20px;
+    border-radius: 31px;
+   
 }
 
 .logo img {
     /* width: 419px; */
     /* height: 114px; */
-    margin: 40px 0px 23px 20px;
+    /* margin: 40px 0px 23px 20px; */
 }
 
 
 .login-form span {
     color: #fff;
-    font-size: 43px;
+    font-size: 40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin: 0px 0px 0px 35px;
+    /* margin: 0px 0px 0px 35px; */
     line-height: 20px;
+  margin: 25px 0px 35px 0px;
 
 }
 
 
-.type-input{
-    margin: 40px 0px 10px 50px ;
+.type-input {
+    /* margin: 40px 0px 10px 50px; */
 }
 
-.mail{
+.mail {
     height: 48px;
     width: 350px;
     background-color: #0F2D6B;
     border: none;
     border-radius: 10px;
     text-align: center;
-    font-size: 16px;
     line-height: 17.2px;
     color: #9B9B9B;
 }
 
-.type-input-password{
-    margin: 10px 0px 10px 50px ;
+.type-input-password {
+    /* margin: 10px 0px 10px 50px; */
 }
 
-.class-two{
+.class-two {
     height: 48px;
     width: 350px;
     background-color: #0F2D6B;
     border: none;
     border-radius: 10px;
     text-align: center;
-    font-size: 16px;
     line-height: 17.2px;
-    color: #9B9B9B;  
+    color: #9B9B9B;
 }
 
-.login-form a{
+/* .login-form a {
     font-weight: 400px;
-    font-size: 16px;
     line-height: 17.2px;
     color: #FFFFFF;
-    margin: 0px 0px 0px 280px ;
+    margin: 0px 0px 0px 230px;
     text-decoration: none;
+} */
+
+.f-password{
+    text-decoration: none;
+    color: white;
+    margin: 0px 0px 0px 230px;
 }
 
-.sign-in{
-    margin: 50px 0px 10px 50px ; 
+.sign-in {
+    margin: 45px 0px 20px  0px;
 
 }
 
-.type-input-sign-in{
+.type-input-sign-in {
     height: 45.2px;
     width: 350px;
     border-radius: 10px;
@@ -90,17 +97,17 @@
     background-color: #1A4FBA;
     color: #FFFFFF;
     text-align: center;
-    color: #fff;
-  
+
+
 }
 
-.line-container {
+/* .line-container {
     text-align: center;
     position: relative;
     margin: 20px 0;
-}
+} */
 
-.line-container::before,
+/* .line-container::before,
 .line-container::after {
     content: "";
     display: block;
@@ -108,16 +115,67 @@
     width: 90%;
     position: absolute;
     top: 50%;
-}
+} */
 
-.hr-lines{
+.hr-lines {
     /* height: 100vh; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.container-input-two {
+    display: inline-block;
+    margin-bottom: 70px;
+}
 
+.google-etc {
+    /* margin: 50px 0px 10px 50px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 
+}
 
+.google-etc input {
+    height: 45.2px;
+    width: 350px;
+    background-color: #0F2D6B;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 17.2px;
+    color: #C1B6B6;
+}
 
+.create-account {
+    /* display: inline-block; */
+}
+
+.content-conatiner {
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.Account{
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.link{
+    text-decoration: none;
+    color: #9B9B9B;
+
+}
+
+.account-link{
+    color: #4671C6;
+    text-decoration: none;
+    
+}
