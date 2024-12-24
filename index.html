@@ -64,16 +64,15 @@
         transform: translateY(-50%);
         color: #57A5D8;
 
-        .input-container input {
-            width: 100%;
-            padding: 10px 40px 10px 40px;
-            /* Padding for lock and eye icons */
-            font-size: 16px;
-            border: 2px solid gray;
-            border-radius: 5px;
-            outline: none;
-            text-align: left;
-        }
+    }
+    .input-container .icons {
+        position: absolute;
+        top: 50%;
+        left: 320px;
+        /* Position inside the input */
+        transform: translateY(-50%);
+        color: #57A5D8;
+
     }
 </style>
 
@@ -93,10 +92,12 @@
                     <i class="fas fa-envelope icon"></i>
                     <input type="text" placeholder="iamchis_wallace@email.com" required>
                 </div>
-                <div class="type-input-password">
-                    <input type="text" placeholder="Password" required class="class-two">
-
+                <div class="input-container">
+                    <i class="fa-solid fa-lock icon"></i>
+                    <input type="text" placeholder="Password" required>
+                    <i class="fa-solid fa-eye icons"></i>
                 </div>
+
                 <a href="#" class="f-password">Forgot Password?</a>
                 <div class="sign-in">
                     <button type="submit" class="type-input-sign-in">Sign in</button>
