@@ -1,8 +1,4 @@
-/* * {
-    margin: 0;
-    padding: 0;
 
-} */
 
 
 body {
@@ -20,76 +16,20 @@ body {
 
 }
 
-/* .logo img { */
-/* width: 419px; */
-/* height: 114px; */
-/* margin: 40px 0px 23px 20px; */
-/* } */
+
 
 
 .login-form span {
     color: #fff;
     font-size: 40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
     line-height: 20px;
     margin: 25px 0px 35px 0px;
 
 }
 
 
-.type-input {
 
-    border-radius: 10px;
-    background-color: #0F2D6B;
-    width: 350px
-}
-
-.mail {
-    /* height: 48px; */
-    /* width: 350px; */
-
-
-
-}
-
-/* .type-input-password {
-    position: relative;
-    width: 350px
-    
-
-
-} */
-
-.password {
-    width: 89%;
-    /* font-size: 16px; */
-    /* border: 2px solid gray; */
-    border-radius: 10px;
-    outline: none;
-    border: none;
-    height: 48px;
-    /* border: none; */
-    background-color: #0F2D6B;
-    /* border-radius: 10px; */
-    line-height: 17.2px;
-    color: #9B9B9B;
-}
-
-.class-two {
-    height: 48px;
-    width: 350px;
-    border: none;
-    background-color: #0F2D6B;
-    border-radius: 10px;
-    text-align: center;
-    line-height: 17.2px;
-    color: #9B9B9B;
-    border: none;
-
-}
-
-/* .class-two:hover {} */
 
 
 .f-password {
@@ -114,69 +54,19 @@ body {
     text-align: center;
     font-size: 16px;
     line-height: 17.2px;
-
-
 }
-
-
-
-.hr-lines {
-    /* height: 100vh; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.container-input-two {
-    display: inline-block;
-    margin-bottom: 70px;
-}
-
-.google-etc {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-
-}
-
-.google-etc input {
-    height: 45.2px;
-    width: 350px;
-    background-color: #0F2D6B;
-    border: none;
-    border-radius: 10px;
-    text-align: center;
-    line-height: 17.2px;
-    color: #C1B6B6;
-}
-
-
 
 .content-conatiner {
-    margin: 0px 0px 0px 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 10px;
-}
-
-.Account {
-    display: inline-block;
-    margin-top: 10px;
 }
 
 .link {
     text-decoration: none;
     color: #9B9B9B;
-
-}
-
-.account-link {
-    color: #4671C6;
-    text-decoration: none;
 
 }
 
@@ -188,7 +78,6 @@ body {
 .image {
     display: flex;
     width: 55%;
-
 }
 
 .img {
@@ -196,3 +85,95 @@ body {
     border-top-right-radius: 31px;
     border-bottom-right-radius: 31px;
 }
+
+.links-group{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 50px 0px;
+}
+
+.link-contant{
+    height: 45.2px;
+    width: 350px;
+    background-color: #0F2D6B;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 17.2px;
+    color: #C1B6B6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link-contant a{
+    margin: 0px 0px 0px 7px;
+    color: #C1B6B6;
+    text-decoration: none;
+}
+
+.fb-link{
+    height: 45.2px;
+    width: 350px;
+    background-color: #0F2D6B;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 17.2px;
+    color: #C1B6B6;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.fb-link a{
+    margin: 0px 0px 0px 7px;
+    text-decoration: none;
+    color: #C1B6B6;
+    
+}
+
+.Apple-link{
+    height: 45.2px;
+    width: 350px;
+    background-color: #0F2D6B;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 17.2px;
+    color: #C1B6B6;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.Apple-link a{
+    margin: 0px 11px 0px 7px;
+    color: #C1B6B6;
+    text-decoration: none;
+}
+
+.f{
+    margin: 0px 0px 0px 12px;
+}
+
+.div{
+    display: flex;
+    gap: 3px;
+    margin: 10px 0px 0px 0px ;
+}
+
+.acnt{
+    text-decoration: none;
+    color: #C1B6B6;
+}
+
+.acnt-two{
+    text-decoration: none;
+    color: #4671C6;
+    
+}
+
