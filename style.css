@@ -1,23 +1,26 @@
+.parent {
+    display: flex;
 
+}
 
+.logo {
+    width: 385px;
+}
 
-body {
-    margin-top: 20px;
+.logo img {
+    width: 100%;
 }
 
 
 .login-form {
     background-color: #002062;
-    width: 45%;
-    padding: 20px;
+    width: 40%;
+    padding: 40px 20px 30px 20px;
     border-top-left-radius: 31px;
     border-bottom-left-radius: 31px;
 
 
 }
-
-
-
 
 .login-form span {
     color: #fff;
@@ -29,8 +32,69 @@ body {
 }
 
 
+.title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.line {
+    border: 1px solid #9B9B9B;
+    width: 165px;
+    flex: 1;
+
+    background-color: black;
+}
+
+.title {
+    margin: 0 7px;
+    font-size: 20px;
+    color: #9B9B9B;
+}
 
 
+.input-container {
+    position: relative;
+    width: 350px;
+}
+
+
+
+.input-container input {
+    width: 89%;
+    border-radius: 10px;
+    height: 48px;
+    background-color: #0F2D6B;
+    line-height: 17.2px;
+    color: #9B9B9B;
+    padding: 0px 0px 0px 40px;
+    border: none;
+
+}
+
+.input-container input:focus {
+    border-color: #4671C6A6;
+}
+
+.input-container .icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #57A5D8;
+
+}
+
+.input-container .icons {
+    position: absolute;
+    top: 50%;
+    left: 320px;
+    /* Position inside the input */
+    transform: translateY(-50%);
+    color: #57A5D8;
+
+}
 
 .f-password {
     text-decoration: none;
@@ -70,23 +134,7 @@ body {
 
 }
 
-.parent {
-    display: flex;
-
-}
-
-.image {
-    display: flex;
-    width: 55%;
-}
-
-.img {
-    width: 100%;
-    border-top-right-radius: 31px;
-    border-bottom-right-radius: 31px;
-}
-
-.links-group{
+.links-group {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -95,7 +143,7 @@ body {
     padding: 0px 0px 50px 0px;
 }
 
-.link-contant{
+.link-contant {
     height: 45.2px;
     width: 350px;
     background-color: #0F2D6B;
@@ -109,13 +157,13 @@ body {
     justify-content: center;
 }
 
-.link-contant a{
+.link-contant a {
     margin: 0px 0px 0px 7px;
     color: #C1B6B6;
     text-decoration: none;
 }
 
-.fb-link{
+.fb-link {
     height: 45.2px;
     width: 350px;
     background-color: #0F2D6B;
@@ -126,17 +174,17 @@ body {
     color: #C1B6B6;
     display: flex;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
 }
 
-.fb-link a{
+.fb-link a {
     margin: 0px 0px 0px 7px;
     text-decoration: none;
     color: #C1B6B6;
-    
+
 }
 
-.Apple-link{
+.Apple-link {
     height: 45.2px;
     width: 350px;
     background-color: #0F2D6B;
@@ -147,33 +195,119 @@ body {
     color: #C1B6B6;
     display: flex;
     align-items: center;
-    justify-content: center;  
+    justify-content: center;
 }
 
-.Apple-link a{
+.Apple-link a {
     margin: 0px 11px 0px 7px;
     color: #C1B6B6;
     text-decoration: none;
 }
 
-.f{
+.f {
     margin: 0px 0px 0px 12px;
 }
 
-.div{
+.div {
     display: flex;
     gap: 3px;
-    margin: 10px 0px 0px 0px ;
+    margin: 10px 0px 0px 0px;
 }
 
-.acnt{
+.acnt {
     text-decoration: none;
     color: #C1B6B6;
 }
 
-.acnt-two{
+.acnt-two {
     text-decoration: none;
     color: #4671C6;
-    
+
 }
 
+.image {
+    display: flex;
+    width: 60%;
+}
+
+.image img {
+    width: 100%;
+    border-top-right-radius: 31px;
+    border-bottom-right-radius: 31px;
+}
+
+
+@media (max-width: 600px) {
+    .parent {
+        
+    }
+
+    .image {
+        display: none;
+    }
+
+    .login-form {
+        width: 100%;
+        border-radius: 31px;
+    }
+
+    .logo {
+        width: 330px;
+    }
+
+    .logo img {
+        width: 100%;
+    }
+
+    .login-form span {
+        margin: 5px 0px 25px 0px;
+        font-size: 30px;
+    }
+
+    .f-password {
+        font-size: 12px;
+        margin: 0px 0px 0px 200px;
+    }
+
+    .input-container {
+        width: 275px;
+    }
+
+    .input-container .icons {
+        left: 250px;
+    }
+
+    .sign-in {
+        width: 275px;
+        margin: 30px 0px 0px 0px;
+    }
+
+    .type-input-sign-in {
+        width: 275px;
+    }
+
+    .title-container {
+        width: 295px;
+    }
+
+    .links-group {
+        width: 275px;
+        padding: 0px 0px 35px 0px;
+    }
+
+    .link-contant {
+        width: 100%;
+    }
+
+    .fb-link {
+        width: 100%;
+    }
+
+    .Apple-link {
+        width: 100%;
+    }
+
+    .div {
+        font-size: 14px;
+    }
+}
